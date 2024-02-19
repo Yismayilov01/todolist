@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(42, 202, 202);
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: rgb(217, 217, 193);
+}
+
+.container h1 {
+    text-align: center;
+    color: rgb(72, 151, 221);
+}
+
+.task {
+    border: 1px solid #a96f6f;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.task input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.task .delete {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.larger-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.buttons button {
+    margin-left: 10px;
+    cursor: pointer;
+}
